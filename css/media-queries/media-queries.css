@@ -1,0 +1,68 @@
+
+
+
+/* =========== MEDIA QUERIES =========== */
+
+
+@media screen and (min-width: 425px) {
+    .container {
+        padding: 0% 10%;
+    }
+
+    .contact__form {
+        padding: 0% 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__nav {
+        position: static;
+        transform: scaleY(1);
+        padding: 0%;
+    }
+    
+    .nav__ul {
+        display: flex;
+        gap: 1em;
+    }
+    
+    .services__container {
+        grid-template-columns: repeat(2, auto);
+    }
+    
+    .carousel__container {
+        width: 200%;
+        gap: 1em;
+    }
+
+    .carousel__img {
+        margin: 0%;
+        width: calc(100% / 3);
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0% 20%;
+    }
+
+    .contact__form {
+        padding: 0% 20%;
+    }
+
+    .header__nav {
+        padding: 0%;
+    }
+}

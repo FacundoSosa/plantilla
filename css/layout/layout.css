@@ -1,0 +1,100 @@
+
+/* ===================== LAYOUT =================== */
+
+
+/* ============= GENERAL STYLES ================= */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0px 5%;
+    background-color: bisque;
+}
+
+
+/* =================== HEADER =================== */
+
+.header {
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+
+.header__container {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: blue;
+    margin-right: auto;
+}
+
+
+/* =========== HERO ============= */
+
+.hero {
+    background-color: orange;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__container {
+    background-color: aqua;
+    text-align: center;
+}
+
+
+/* ============== SERVICES ========== */
+
+.services {
+    background-color: gold;
+}
+
+.services__container {
+    background-color: rgb(102, 123, 141);
+    display: grid; 
+    gap: 1em;
+}
+
+.services__items {
+    background-color: rgb(143, 203, 255);
+    border: solid 1px red;
+    display: flex;
+}
+
+
+
+/* =============== WORK =============  */
+
+.work {
+    background-color: blue;
+}
+
+
+/* ================= ABOUT ================ */
+
+.about {
+    background-color: salmon;
+}
+
+.about__container {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ================= CONTACT ================== */
+
+.contact {
+    background-color: hotpink;
+}

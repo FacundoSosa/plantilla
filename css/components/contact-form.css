@@ -1,0 +1,14 @@
+
+
+/* ================== CONTACT FORM ===================== */
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact__input {
+    min-height: 3em;
+    outline: none
+}

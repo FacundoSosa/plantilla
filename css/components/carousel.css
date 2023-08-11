@@ -1,0 +1,38 @@
+
+/* ============ CAROUSEL ================ */
+
+.carousel {
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.carousel__container {
+    width: 600%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    transition: transform .5s ease-in-out;
+}
+
+.carousel__img {
+    width: calc(100% / 6);
+    background-color: orange;
+    margin: 0em 1em;
+}
+.carousel__indicators {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.carousel__indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 80px;
+    background-color: black;
+}
+
+.carousel__indicator--active {
+    border: 2px solid white;
+}
