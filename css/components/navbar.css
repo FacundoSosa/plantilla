@@ -1,7 +1,6 @@
 
-
 .header__nav {
-    background-color: aqua;
+    background-color: var(--dark-color-transparent);
     position: absolute;
     right: 0%;
     left: 0%;
@@ -10,20 +9,17 @@
     transition: transform .3s ease-in-out;
 }
 
-.nav__ul {
-    background-color: rgb(98, 151, 98);
-}
-
 .nav__li {
-    background-color: yellow;
     padding: 0.5em 0em;
     text-align: right;
 }
 
 .nav__link {
-    background-color: skyblue;
+    color: var(--white-color);
+    text-decoration: none;
 }
 
 .nav--active {
     transform: scaleY(1);
+    z-index: -1;
 }
